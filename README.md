@@ -23,13 +23,6 @@ go build
 ```
 
 
-## Url to call the books api
-
-```
-http://localhost:8000/api/books
-```
-
-
 ## Build main.go
 
 ```
@@ -44,3 +37,16 @@ Run this command on your terminal
 go get -u https://github.com/gorilla/mux
 ```
 
+
+## API Url to view all the books
+
+```
+http://localhost:8000/api/books
+```
+
+
+## API Url to view a book by id
+
+```
+http://localhost:8000/api/book/2
+```
